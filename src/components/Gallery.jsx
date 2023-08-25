@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
 export default function Gallery() {
   const [index, setIndex] = useState(0);
@@ -21,15 +22,15 @@ export default function Gallery() {
       />
       <button
         onClick={() => setIndex((prev) => (prev - 1 <= 0 ? 2 : prev - 1))}
-        className="absolute top-1/2 left-0  bg-red-500 p-2 text-white"
+        className="absolute bg-black/50 backdrop-blur top-1/2 left-0  bg-red-500 p-3 text-white text-lg"
       >
-        Prev
+        <BsChevronLeft />
       </button>
       <button
         onClick={() => setIndex((prev) => (prev + 1 > 2 ? 0 : prev + 1))}
-        className="absolute top-1/2 right-0 bg-red-500 text-white p-2"
+        className="absolute top-1/2 right-0 backdrop-blur bg-black/50 text-white p-3 text-lg"
       >
-        Next
+        <BsChevronRight />
       </button>
     </section>
   );
