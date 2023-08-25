@@ -18,7 +18,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="flex items-center justify-between bg-white rounded-md text-black">
+    <nav className="flex items-center justify-between bg-white rounded-md text-black col-span-3">
       <ul className="flex items-center gap-10 uppercase text-gray-500 font-semibold px-3 text-[14px]">
         {links.map((item) => (
           <li

@@ -2,10 +2,10 @@ import SignIn from "./SignIn";
 
 export default function SignComp() {
   return (
-    <div className="grid grid-cols-2">
-      <div className="ocean-container relative">
+    <section className="h-[50vh] grid grid-cols-2 col-span-2 bg-red-500">
+      <div className="ocean-container h-[50vh] w-full relative">
         <img
-          className="ocean-img"
+          className="ocean-img w-full h-full object-cover"
           src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1252&q=80"
           alt="ocean"
         />
@@ -19,6 +19,6 @@ export default function SignComp() {
         </h1>
       </div>
       <SignIn />
-    </div>
+    </section>
   );
 }
