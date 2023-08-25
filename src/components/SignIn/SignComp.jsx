@@ -10,9 +10,9 @@ export default function SignComp() {
           alt="ocean"
         />
 
-        <h1 className="-text absolute z-10 bottom-10 flex flex-col gap-1 text-center text-white font-bold text-3xl px-2">
+        <h1 className="absolute z-10 bottom-10 flex flex-col gap-1 text-center text-white font-bold text-2xl px-2">
           Ocean High
-          <span className="text-lg">
+          <span className="text-sm w-4/5 mx-auto">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
             provident!
           </span>

@@ -19,12 +19,12 @@ export default function Navbar() {
 
   return (
     <nav className="flex items-center justify-between bg-white rounded-md text-black">
-      <ul className="flex items-center gap-10 uppercase text-gray-500 font-semibold px-3">
+      <ul className="flex items-center gap-10 uppercase text-gray-500 font-semibold px-3 text-[14px]">
         {links.map((item) => (
           <li
             onClick={() => handleLink(item)}
             key={item.link}
-            className={`p-3 relative cursor-pointer after:absolute after:content-[''] after:-bottom-[10px] after:left-0 after:h-[5px] after:hover:transition-all after:linear after:duration-400 ${
+            className={`p-3 relative cursor-pointer after:absolute after:content-[''] after:-bottom-[11px] after:left-0 after:h-[5px] after:hover:transition-all after:linear after:duration-400 ${
               item.selected ? "after:w-full" : "after:w-0"
             } after:bg-teal-500 `}
           >
