@@ -22,7 +22,7 @@ export default function Gallery() {
       />
       <button
         onClick={() => setIndex((prev) => (prev - 1 <= 0 ? 2 : prev - 1))}
-        className="absolute bg-black/50 backdrop-blur top-1/2 left-0  bg-red-500 p-3 text-white text-lg"
+        className="absolute bg-black/50 backdrop-blur top-1/2 left-0  p-3 text-white text-lg"
       >
         <BsChevronLeft />
       </button>
