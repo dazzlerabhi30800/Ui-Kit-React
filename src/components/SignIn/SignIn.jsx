@@ -41,8 +41,8 @@ export default function SignIn() {
         </div>
         <div className="flex p-3 gap-3 items-center">
           <input
-            className="appearance-none bg-teal-50 b border border-gray-400 w-4 h-4 checked:bg-red-500 indeterminate:border-none"
-            type="checbox"
+            className="bg-teal-50 b border border-gray-400 w-4 h-4"
+            type="checkbox"
             id="saved"
           />
           <label htmlFor="saved" className="cursor-pointer select-none">
